@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="453a1753-3b7c-4a17-9897-49c46fc8bf28" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/loginTesting/negativeTesting/ValidateLockedUserError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/loginTesting/positiveTesting/validateStandardUserLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/sanityTesting/BuyProductsScenario.java" afterDir="false" />
+    <list default="true" id="453a1753-3b7c-4a17-9897-49c46fc8bf28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginTesting/negativeTesting/ValidateLockedUserError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginTesting/negativeTesting/ValidateLockedUserError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginTesting/positiveTesting/validateStandardUserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginTesting/positiveTesting/ValidateStandardUserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/sanityTesting/BuyProductsScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/sanityTesting/BuyProductsScenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OrGanon2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4c5e13e5-2def-4cac-b142-8d6dec4c962a" />
+        <option name="url" value="https://github.com/OrGanon2/Automation-final-project.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -48,6 +56,7 @@
   "keyToString": {
     "Application.BuyProductsScenario.executor": "Run",
     "Application.ValidateLockedUserError.executor": "Run",
+    "Application.ValidateStandardUserLogin.executor": "Run",
     "Application.validateStandardUserLogin.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -75,10 +84,35 @@
       <option name="presentableId" value="Default" />
       <updated>1711479385405</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1711571110648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711571110648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/loginTesting/negativeTesting/ValidateLockedUserError.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/sanityTesting/BuyProductsScenario.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

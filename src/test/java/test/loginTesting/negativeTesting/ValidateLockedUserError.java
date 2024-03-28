@@ -1,15 +1,11 @@
 package test.loginTesting.negativeTesting;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-
 public class ValidateLockedUserError {
     public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup(); // You don't need this line of code. this refers to selenium in version 3.
         WebDriver driver = new ChromeDriver();
 
         //logs in to the system
@@ -24,7 +20,7 @@ public class ValidateLockedUserError {
         }
         public static void validateLockedUsers(WebDriver driver,String username ,String password, String expectedErrorMessage){
             driver.get("https://www.saucedemo.com");
-            assert driver.getCurrentUrl().equals("https://www.saucedemo.com/inventory.html") : "Something went wrong"; // Use the TestNG assertion instead of the assert keyword.
+            Assert.assertEquals(driver.getCurrentUrl(), "https://www.saucedemo.com/", "Something went wrong.");
 
             //finds the elements username by id and sends it the username "standard_user"
             WebElement userName = driver.findElement(By.id("user-name"));
@@ -32,7 +28,7 @@ public class ValidateLockedUserError {
 
             userName.sendKeys(username);
             Password.sendKeys(password);
-            Password.submit();
+            driver.findElement(By.cssSelector("#login-button")).click();
 
             WebElement errorMessage = driver.findElement(By.cssSelector("[data-test='error']"));
             Assert.assertEquals(errorMessage.getText(), expectedErrorMessage, "Login scenario failed for username: " + username + ", password: " + password);
